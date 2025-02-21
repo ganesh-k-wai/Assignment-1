@@ -8,8 +8,6 @@
     box-sizing: border-box;
 }
 
-
- 
  .accordion-button {
     display: flex;
     align-items: center;
@@ -25,10 +23,13 @@
     border: none !important; 
 }
 .accordion-button:hover {
-    background-color: #f8f9fa !important; 
-    color: #6A8FFB !important;
+    background-color: rgba(105, 163, 185, 0.1) !important; 
+    
 }
-.accordion-button {
+.accordion .icon-text:hover{
+ color: #6a8ffb !important;
+}
+.accordion-button { 
     border: none !important; 
     box-shadow: none !important; 
 }
@@ -43,6 +44,12 @@
          color: rgba(0, 0, 0, 0.8);
          font-family:  "Poppins",Roboto Condensed, serif ;
            font-size: 14px;     
+}
+
+.accordion-collapse a:hover {
+    background-color: rgba(105, 163, 185, 0.1) !important; 
+     color: #6A8FFB !important;
+
 }
 
 
@@ -144,3 +151,83 @@ input::placeholder {
 .trashicon:hover{
   color: red;
 }
+.color797A7A {
+   color: #797A7A;
+}
+
+
+/* learning path  */
+
+.courseaddtbl{
+  color: rgb(158, 95, 247);
+  background-color: rgba(160, 97, 247, 0.3);
+
+}
+
+ .circlle:hover {
+  color: white;
+  background-color: #A061F7;
+}
+.circlle{
+  border: 1px solid rgba(160, 97, 247,0.5) !important;
+}
+
+/* pagination  */
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 200px;
+}
+
+.btnpagination {
+  border: 1px solid #087f5b;
+  height: 48px;
+  width: 40px;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+  border: none !important;
+}
+
+
+.btnpagination-icon {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+}
+
+.btnpagination:hover {
+  background-color: #087f5b;
+}
+
+.btnpagination:hover .btn-icon {
+  stroke: #fff;
+}
+
+.page-link:link,
+.page-link:visited {
+  text-decoration: none;
+  color: #343a40;
+  font-size: 18px;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-link:hover,
+.page-link:active,
+.page-link.page-link--current {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+.dotspage {
+  color: #868e96;
+}
+
