@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown with Images</title>
+    <style>
+        select {
+            width: 200px;
+            height: 40px;
+            padding-left: 30px;
+            /* space for the image */
+            font-size: 16px;
+        }
+
+        option {
+            background-size: 20px 20px !important;
+            /* Resize the background image */
+            background-repeat: no-repeat;
+            background-position: left center;
+            /* Position the image on the left */
+            padding-left: 30px;
+            /* Space for the image */
+            height: 40px;
+            /* Option height */
+        }
+
+        option[value="en-in"] {
+            background-image: url('./assets/icons/india-flag.png');
+        }
+
+        option[value="en-cn"] {
+            background-image: url('./assets/icons/china-flag.png');
+        }
+
+        option[value="en-usa"] {
+            background-image: url('./assets/icons/usa-flag.png');
+        }
+
+        option[value="gr-ger"] {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Germany.svg/1024px-Flag_of_Germany.svg.png');
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li>
+            <select name="" id="" class="border-0">
+                <option value="en-in">India</option>
+                <option value="en-cn">China</option>
+                <option value="en-usa">USA</option>
+                <option value="gr-ger">Germany</option>
+            </select>
+        </li>
+    </ul>
+
+</body>
+
+</html>
