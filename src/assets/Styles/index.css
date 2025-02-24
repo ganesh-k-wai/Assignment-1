@@ -7,7 +7,6 @@
     font-style: normal;
     box-sizing: border-box;
 }
-
  .accordion-button {
     display: flex;
     align-items: center;
@@ -45,14 +44,10 @@
          font-family:  "Poppins",Roboto Condensed, serif ;
            font-size: 14px;     
 }
-
 .accordion-collapse a:hover {
     background-color: rgba(105, 163, 185, 0.1) !important; 
      color: #6A8FFB !important;
-
 }
-
-
 /* --------image ------------ */
   .image-container {
     position: relative;
@@ -118,30 +113,22 @@
     height: 80px;
     margin: auto 0px !important;
 }
-
 .cvupload:hover{
     border: 1px dashed skyblue;
 }
-
-/* -------skill set table----------- */
-
-
 /* fonts and colors  */
-
 .color323232{
     color:#323232 ;
 }
 .color6C757D {
   color: #6C757D;
 }
-
 .color303030 {
   color: #303030 ;
 }
   .colorBABABA {
     color: #BABABA !important; 
 }
-
 input::placeholder {
   color: #BABABA !important;        
 }
@@ -154,16 +141,11 @@ input::placeholder {
 .color797A7A {
    color: #797A7A;
 }
-
-
 /* learning path  */
-
 .courseaddtbl{
   color: rgb(158, 95, 247);
   background-color: rgba(160, 97, 247, 0.3);
-
 }
-
  .circlle:hover {
   color: white;
   background-color: #A061F7;
@@ -171,27 +153,16 @@ input::placeholder {
 .circlle{
   border: 1px solid rgba(160, 97, 247,0.5) !important;
 }
-
 /* pagination  */
-
 .btnpagination {
-  border: 1px solid #087f5b;
   height: 30px;
   width: 30px;
   background: none;
   cursor: pointer;
   border: none !important;
 }
-.btnpagination-icon {
-  width: 24px;
-  height: 24px;
-  stroke: rgba(2, 18, 252,0.5);
-}
 .btnpagination:hover {
-  background-color: #087f5b;
-}
-.btnpagination:hover .btn-icon {
-  stroke: #fff;
+  background-color: #0935f8;
 }
 .page-link:link,
 .page-link:visited {
@@ -205,26 +176,18 @@ input::placeholder {
   align-items: center;
   justify-content: center;
 }
-.page-link:hover,
-.page-link:active,
 .page-link.page-link--current {
-  background-color: #087f5b;
+  background-color: #0935f8;
   color: #fff;
 }
-
-
 /* -------skill set----------- */
-
 .pencilcolor:hover{
-  content: url('../icons/pencilColor-big.png')
+  content: url('../icons/pencilColor-big.png');
+  
 }
-
 .deletecolor:hover{
   content: url('../icons/delete-color-big.png');
-  /* filter:brightness(100%); */
-  fill:#303030;
 }
-
 .skillsetborder:hover{
-  box-shadow: 0px 0px 5px  #264DE4 !important;
+  box-shadow: 0px 0px 2px  #264DE4 !important;
 }
